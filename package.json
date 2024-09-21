@@ -1,0 +1,21 @@
+{
+  "name": "tech-notes-app",
+  "version": "1.0.0",
+  "description": "Tech notes MERN project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
