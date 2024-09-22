@@ -9,6 +9,7 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true,
+    select: false,
   },
   roles: [
     {
@@ -22,6 +23,6 @@ const userSchema = new Schema({
   },
 });
 
-const Users = mongoose.model("user", userSchema);
+const User = mongoose.model("user", userSchema);
 
-module.exports = Users;
+module.exports = User;
